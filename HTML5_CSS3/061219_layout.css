@@ -1,0 +1,87 @@
+body{
+    margin: 25px 50px;
+    line-height: 1.25;
+}
+header{
+    margin-bottom: 25px;
+}
+nav ul li {
+    /* display: inline; */
+    /* display: block; */
+    display:inline-block;
+    /* display: inline-table; */
+    /* display: contents; */
+    /* display: table-cell; */
+    /* display: list-item; */
+    /* display: table-caption; */
+    margin: 25px;
+}
+ul {
+    background-color: black;
+    border: .5em ridge yellowgreen;
+    border-top-left-radius: 3em 1.5em;
+    border-bottom-right-radius: 10% 50%;
+    box-shadow: -5px 5px 5px 2px orange;
+    text-align: center;
+}
+li>a {
+    color:white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 5px;
+}
+.overrideText {
+    color: white;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-right: 10em;
+    text-align: left;
+}
+h2>li {
+    list-style-image: url("combinedEx/images/bg-note.png");
+    font-size: 1.5em;
+    margin: .5em;
+    padding: .5em;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.25em;
+    font-weight: bolder;
+    color: brown;
+    padding: .5rem;
+    margin-left: 15em;
+}
+p {
+    white-space: pre-wrap;
+}
+.firstArticle {
+    border: .1em solid green;
+    padding: .75em;
+    border-radius: 10px 10px;
+    margin-bottom: 1em;
+}
+.secondArticle {
+    border: .1em dashed lightgrey;
+    padding: .75em;
+    border-radius: 50px 0px 50px 0px;
+    margin-bottom: 1em;
+}
+ .listImage {
+    list-style-image: none;
+    list-style-type: none;
+ }
+.thridArticle>ol>li {
+    list-style-type: disc;
+    padding: 0.5em;
+    font-family: "Pacifico" !important;
+}
+img {
+    width: 15em;
+    float: left;
+    background-attachment: fixed;
+}
+.content {
+    width: 92em;
+    padding-bottom: 5em;
+}
