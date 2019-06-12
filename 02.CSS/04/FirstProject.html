@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cocore Platinum Data</title>
+    <style>
+    body {
+    font-family: "Lato", sans-serif;
+    /* transition: background-color .5s; // 화면 변화후 오른쪽 비활성화 쪽 변화속도*/
+
+    background-color: darkslategrey;
+    color: rgb(196, 169, 51);
+    }
+
+    .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+
+    .sidenav a {
+    padding: 8px 8px 8px 35px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+    color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 125px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+
+    #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    /* margin-bottom: 80px; */
+    }
+
+    @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    }
+    .trend {
+    margin-left: 20px;
+    font-size: 75px;
+    font-style: bold;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    ul {
+        list-style: none;
+    }
+    li {
+        font-size: 40px;
+        margin-top: 35px;
+        margin-left: 420px;
+		text-decoration:none;
+    }
+    h5{
+        margin-left: 800px;
+    }
+    </style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Customer Segment</br>(타겟고객)</a>
+  <a href="#">Problem</br>(문제점)</a>
+  <a href="#">Solution</br>(문제 해결방안)</a>
+  <a href="#">Key Metrics</br>(검증이 필요한 항목)</a>
+  <a href="#">Unique Value Proposition</br>(가치와 차별성)</a>
+  <a href="#">Channels</br>(고객접속 가능채널)</a>
+  <a href="#">Unfair Advantage</br>(쉽게 복제 불가)</a>
+  <a href="#">Cost Structure</br>(비용구조)</a>
+  <a href="#">Revenue Streams</br>(수익원)</a>
+</div>
+
+<div id="main">
+  <h3>Co.core Platinum Data</h3>
+  <h1 class = "trend">2019년 주목해야 할 트렌드 키워드 5</h1>
+      <ol>
+          <li>친환경 넘어 필(必)환경</li>
+          <li><a href  = "https://ko.wikipedia.org/wiki/%EB%B0%80%EB%A0%88%EB%8B%88%EC%96%BC_%EC%84%B8%EB%8C%80"target="_blank" title="밀레니엄">1인·밀레니얼 가족 시대</a></li>
+          <li>디지털 세상의 중심은 유튜브</li>
+          <li>라이프스타일 입는 오프라인</li>
+          <li>다양성 존중과 젠더 허물기</br></li>
+      </ol>
+    <h5>출처 : The PR(http://www.the-pr.co.kr)</h5>
+  <!-- </p> -->
+  <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; &nbsp; 기획의도</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";// 화면이 open으로 변화후 오른쪽 비활성화 쪽 색 변화*/
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    // document.body.style.backgroundColor = "white";// 화면이close 변화후 오른쪽 비활성화 쪽 색 변화*/
+}
+</script>
+   
+</body>
+</html> 
