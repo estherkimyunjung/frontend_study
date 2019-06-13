@@ -1,0 +1,73 @@
+.content-box {
+    box-sizing: content-box;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid red;
+    float: left;
+}
+.border-box {
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid red;
+    float: right;
+}
+img {
+    width: 25em;
+    float: left;
+    background-attachment: fixed;
+    margin: 0em 0em 2.5em 1.5em;
+}
+h2, h3,.imageOne {
+    clear: both;
+}
+p {
+    margin-left: 25em;
+    line-height: 1.5;
+    font-size: 1.25em;
+}
+h2 {
+    color: green;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+h3 {
+    color: brown;
+    font-size: 2em;
+    margin-bottom: .5em;
+    margin-left: 1em;
+}
+.wrapper {
+    clear: both;
+}
+.box {
+    border: .1em solid purple;
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 7em;
+    height: 7em;
+    margin: 1em;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    }
+.boxOne {
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+.boxTwo {
+    float: left;
+}
+.boxThree {
+    width: 25em;
+}
+.boxFour {
+    clear: both;
+}
