@@ -1,0 +1,42 @@
+body {
+    margin: 20px auto;
+    width: 960px;
+    line-height: 1.5;
+}
+/* header and combined one column subject */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* main multi columns start */
+.multi {
+    /* test | column-width: 300px; */
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    column-gap: 25px;
+    /* snytax | column-rule: width | style | color; */
+    column-rule-style: dotted;
+}
+/* main multi columns end */
+
+p {
+    margin-bottom: 20px;
+}
+
+/* table layout test */
+.table1 {
+    border: 1px solid black;
+}
+.table1 td {
+    border: 1px dotted black;
+    padding: 15px;
+    text-align: center;
+}
+#table {
+    border-collapse:separate;
+    border-spacing: 5px;
+    padding: 10px;
+}

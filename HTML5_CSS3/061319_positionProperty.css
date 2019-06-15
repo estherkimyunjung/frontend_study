@@ -1,3 +1,4 @@
+/* first position relative */
 .box1 {
     float: left;
     width: 100px;
@@ -14,6 +15,7 @@
     float: left;
     padding: 20px;
 }
+/* second position absolute start */
 #wrap {
     clear: both;
     position: relative;
@@ -48,6 +50,9 @@
     top: 100px;
     left: 100px;
 }
+/* second position absolute end */
+
+/* right top box : position fixed */
 #fx {
     position: fixed;
     top: 5px;
@@ -56,20 +61,19 @@
     height: 50px;
     background: #ff6a00;
 }
+/* flower images visibility property */
 #content {
     width: 800px;
     margin-top: 50px;
 }
-p {
-    line-height: 30px;
-}
 img {
     width: 250px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
 }
 .invisible {
     visibility: hidden;
 }
+/* z-index start */
 #wrapper {
     position: relative;
 }
@@ -94,3 +98,4 @@ img {
 #b1 {z-index: 1;}
 #b2 {z-index: 3;}
 #b3 {z-index: 1;}
+/* z-index end */
