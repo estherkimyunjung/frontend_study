@@ -1,0 +1,79 @@
+/* full body area */
+body {
+    font: 14px, 맑은 고딕;
+}
+.container {
+    position: absolute;
+    width: 960px;
+    margin: 0 auto;
+}
+/* header area */
+header {
+    position: relative;
+    width: 960px;
+    height: 300px;
+    background: url('./images/bg.png') no-repeat left top;
+}
+header h1 {
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+    color: rgb(247, 247, 177);
+    font-size: 3.0em;
+}
+header h2 {
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    color: yellow;
+    font-size: 2.0em;
+}
+/* navigation menu bar area */
+nav.navi {
+    position: relative;
+    width: 960px;
+    height: 60px;
+    margin-top: -35px;
+    background: #333;
+}
+.navi ul {
+    list-style-type: none;
+}
+.navi ul li {
+    float: left;
+    margin: 0 15px;
+    padding: 25px 50px 10px 0px;
+}
+/* navigation menu event */
+.navi ul li a {
+    color: white;
+    text-decoration: none;
+}
+.navi a:hover, .navi a:active, .navi a:focus {
+	color:orange;
+}
+/* content area (main and side) */
+p {
+    font-size: 14px
+    line-height: 22px;
+}
+/* main content area */
+.content {
+    float: left;
+    clear: both;
+    width: 700px;
+    padding: 5px;
+}
+/* right side content area */
+.rightsidebar {
+    float: right;
+    width: 200px;
+    height: 580px;
+    padding: 25px 10px 25px 10px;
+    background-color: rgb(225, 250, 221);
+}
+.rightsidebar>img {
+    width: 200px;
+    height: 120px;
+    margin-bottom: 5px;
+}
