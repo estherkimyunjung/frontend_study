@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpage Layout</title>
+    <!-- reset stylesheet -->
+    <link rel="stylesheet" href="resetCss.css">
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="061819_webpageLayout.css">
+    <!-- add new font -->
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header area -->
+    <header id="main_header">
+        <div id="title">
+            <h1>Rint Development</h1>
+            <h2>HTML5 + CSS3 Basic</h2>
+        </div>
+
+    <!-- global navigation bar area-->
+        <nav id="main_gnb">
+            <ul>
+                <li><a href="#">Web</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">Simulation</a></li>
+                <li><a href="#">Data</a></li>
+            </ul>
+        </nav>
+
+    <!-- local navigation bar area -->
+        <nav id="main_lnb">
+            <ul>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">j Query</a></li>
+                <li><a href="#">Node.js</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- content area -->
+    <div id="content">
+
+    <!-- main content area -->
+        <sectioin id="main_section">
+            <article class="main_article">
+                <h1>Main Section</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </article>
+            <article class="main_article">
+                <h1>Main Section</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </article>
+            <article class="main_article">
+                <h1>Main Section</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </article>
+        </sectioin>
+
+    <!-- right side menu bar area -->
+        <aside id="main_aside">
+            <!-- <h1>Main Aside</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> -->
+            <input type="radio" name="tab" id="first" checked>
+            <input type="radio" name="tab" id="second">
+            <section class="buttons">
+                <label for="first">First</label>
+                <label for="second">Second</label>
+            </section>
+
+    <!-- tab bar first list -->
+            <div class="tab_item">
+                <ul>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="icon">
+                            </div> 
+                            <div class="description">
+                                <strong>HTML5 Canvas</strong>
+                                <p>06-18-2019</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="icon">
+                            </div> 
+                            <div class="description">
+                                <strong>HTML5 Audio</strong>
+                                <p>06-18-2019</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="icon">
+                            </div> 
+                            <div class="description">
+                                <strong>HTML5 Video</strong>
+                                <p>06-18-2019</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="icon">
+                            </div> 
+                            <div class="description">
+                                <strong>HTML5 Semantic Web</strong>
+                                <p>06-18-2019</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+    <!-- tab bar second list -->
+            <div class="tab_item">
+                <ul>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="icon">
+                            </div> 
+                            <div class="description">
+                                <strong>CSS3 Transition</strong>
+                                <p>06-18-2019</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="icon">
+                            </div> 
+                            <div class="description">
+                                <strong>CSS3 Animation</strong>
+                                <p>06-18-2019</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="icon">
+                            </div> 
+                            <div class="description">
+                                <strong>CSS3 Border</strong>
+                                <p>06-18-2019</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="icon">
+                            </div> 
+                            <div class="description">
+                                <strong>CSS3 Box</strong>
+                                <p>06-18-2019</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- footer area -->
+    <footer id="main_footer">
+        <h3>HTML5 + CSS3</h3>
+        <address>Website Layout Basic</address>
+
+    </footer>
+</body>
+</html>
