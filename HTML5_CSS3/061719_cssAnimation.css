@@ -1,0 +1,46 @@
+/* Transition area */
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    transition: all 3s ease;
+}
+.box:hover {
+    background: yellow;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+/* Transform area */
+.origin {
+    display: inline-flex;
+    perspective: 200px;
+    margin-right: 100px;
+}
+.movex:hover {transform: translateX(150px); }
+.movey:hover {transform: translateY(120px); }
+.movexy:hover {transform: translate(100px,30px); }
+.movexyz:hover {transform: translate3d(100px,30px, 50px); }
+
+/* Transform Scale area */
+.original {
+    display: inline-flex;
+    perspective: 200px;
+    margin-top: 100px;
+}
+.scalex:hover {transform: scaleX(1.5); }
+.scaley:hover {transform: scaleY(1.5); }
+.scalexy:hover {transform: scale(1.25, 1.25); }
+.scalexyz:hover {transform: scale3d(1.25, 1.25, 2); }
+
+/* Transform Rotate area */
+.ori {
+    display: inline-flex;
+    perspective: 200px;
+    margin: 100px 50px;
+}
+.rotatex:hover {transform: rotateX(45deg); }
+.rotatey:hover {transform: rotateY(45deg); }
+.rotatez:hover {transform: rotateZ(45deg); }
+.rotatexyz:hover {transform: rotate3d(2.5, 1.7, -1.5, 45deg); }
+
