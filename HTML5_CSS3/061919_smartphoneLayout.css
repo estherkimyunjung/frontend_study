@@ -1,0 +1,129 @@
+/* header area */
+#main_header {
+    position: relative;
+    height: 45px;
+    background: url('./images/header_background.png');
+    background-color: #B42111;
+    text-align: center;
+    line-height: 45px;
+}
+#main_header > h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#main_header > a, #main_header > label {
+    display: block;
+    position: absolute;
+    height: 32px;
+}
+
+/* spriter image area */
+#main_header > a.left {
+    left: 5px;
+    top: 7px;
+    width: 62px;
+    background: url('./images/sprites.png');
+    background-position: 0px 0px;
+    text-indent: -99999px;
+}
+#main_header > label.right {
+    right: 5px;
+    top: 7px;
+    width: 32px;
+    background: url('./images/sprites.png');
+    background-position: -64px 0px;
+    text-indent: -99999px;
+}
+
+/* toggle list area */
+    /* toggle event area */
+#toggle {display: none;}
+#toggle + #wrap > #toggle_gnb_wrap {display: none;}
+#toggle:checked + #wrap > #toggle_gnb_wrap {display: block;}
+
+    /* toggle design area */
+#toggle_gnb_wrap {
+    background: #363636;
+    padding: 15px;
+}
+#toggle_gnb {
+    background: #ffffff;
+    padding: 5px;
+}
+    /* toggle list */
+#toggle_gnb > ul { overflow: hidden; }
+#toggle_gnb > ul > li {
+    float: left;
+    width: 80px;
+}
+#toggle_gnb > ul > li > a {
+    text-decoration: none;
+}
+
+/* top navigation menu area */
+#top_gnb {
+    overflow: hidden;
+    border-bottom: 1px solid #000;
+    background: #B42111;
+}
+#top_gnb > div > a {
+    float: left;
+    width: 25%;
+    height: 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+/* bottom navigation menu area */
+#bottom_gnb {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+#bottom_gnb > div {
+    display: table-cell;
+    position: relative;
+}
+#bottom_gnb > div > a {
+    display: block;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+}
+#bottom_gnb > div > a::before {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: -1px;
+    width: 1px;
+    height: 15px;
+    border-left: 1px solid #000;
+    content: '';
+}
+/* content area */
+#section_header { padding: 20px; }
+#section_header > h1 { 
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.25;
+}
+#section_article { padding: 10px; }
+#section_article > p { 
+    font-size: 1.0rem;
+    line-height: 1.25;
+}
+/* footer area */
+#main_footer {
+    padding: 10px;
+    border-top: 3px solid black;
+    text-align: center;
+}
+#main_footer > h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
