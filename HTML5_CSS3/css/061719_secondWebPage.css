@@ -45,7 +45,7 @@ article section {
     border: 1px dotted #333;
 }
 section h3 {
-    background-image: url(./images/bg-note.png);
+    background-image: url('../images/bg-note.png');
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 30px;

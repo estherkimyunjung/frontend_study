@@ -56,7 +56,7 @@ article section {
 section h3 {
     padding: 20px;
     padding-left: 30px;
-    background-image: url(./images/bg-note.png);
+    background-image: url('../images/bg-note.png');
     background-repeat: no-repeat;
     background-position: left center;
     font-size: 1.1rem;
