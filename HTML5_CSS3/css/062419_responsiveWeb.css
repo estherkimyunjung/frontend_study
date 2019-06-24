@@ -1,0 +1,447 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Paytone+One&display=swap');
+
+/* font */
+body {
+    margin: 0;
+    font-family: '맑은 고딕','Apple SD Gothic Neo', sans-serif;
+}
+
+/* box spacing */
+.box1 {
+    padding: 8px 0;
+}
+.box3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.box4 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}        
+.box5 {
+    padding: 15px 0;
+}
+.box1, .boxA, .box2-inner,.box5-inner {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* site information */
+.site h1 a {
+    color: #83a4a8;
+    text-decoration: none;
+}
+.site h1 {
+    margin: 0;
+    font-style: 30px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: normal;
+}
+
+/* box2 */
+.box2 {
+    background-color: #7cbac1;
+}
+
+/* menu */
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu li {
+    float: left;
+    width: auto;
+}
+.menu li a {
+    display: block;
+    padding: 15px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: #75dbe7;
+}
+
+/* story */
+.story-cat {
+    margin-bottom: 25px;
+}
+.story-cat ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.story-cat ul:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.story-cat li {
+    float: left;
+    width: auto;
+}
+.story-cat li a {
+    display: block;
+    margin-right: 5px;
+    padding: 3px 5px;
+    border-radius: 2px;
+    background-color: #75dbe7;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.story-cat li a:hover {
+    background-color: #94ecf6;
+}
+.story h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+.storyinfo {
+    margin-bottom: 20px;
+}
+.storyinfo i {
+    margin-right: 5px;
+    color: #aaa;
+    font-style: 20px;
+}
+.story img {
+    max-width: 100%;
+    height: auto;
+}
+.story h2 {
+    margin-top: 40px;
+    padding-left: 10px;
+    border-left: 10px solid #7cdac1;
+    font-weight: normal;
+}
+.story p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* SNS share button */
+.share {
+    margin-top: 40px;
+}
+.share ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.share li a {
+    display: block;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.share li a:hover {
+    opacity: 0.8;
+}
+.share ul:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.share li {
+    float: left;
+    width: 33.333%;
+}
+.share-tw {
+    background-color: #55acee;
+}
+.share-fb {
+    background-color: #3b5998;
+}
+.share-gp {
+    background-color: #dd4b39;
+}
+
+/* relation article */
+.relation {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0d4;
+}
+.relation h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #727224;
+    font-style: 20px;
+    font-weight: normal;
+}
+.relation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.relation ul:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.relation li {
+    float: left;
+    width: 25%;
+}
+.relation li a {
+    display: block;
+    padding: 5px;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+}
+.relation li a:hover {
+    text-decoration: underline;
+}
+.relation img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+/* sidemenu */
+.sidemenu {
+    margin-bottom: 30px;
+}
+.sidemenu h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted #ddd;
+    color: #666;
+    font-size: 18px;
+}
+.sidemenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidemenu li a {
+    display: block;
+    padding: 5px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.sidemenu li a:hover {
+    background-color: #eee;
+}
+.sidemenu i {
+    margin-right: 5px;
+    color: #888;
+}
+
+/* recommend */
+.recommend {
+    margin-bottom: 30px;
+}
+.recommend h1 {
+    margin-top: 0;    
+    margin-bottom: 10px;
+    border-bottom: 2px dotted #ddd;
+    font-size: 18px;
+}
+.recommend ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.recommend li a {
+    position: relative;
+    display: block;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.recommend li a:hover {
+    /* background-color: #eee; */
+    opacity: .8;
+}
+.recommend img {
+    width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: bottom;
+}
+.recommend .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgb(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+/* popular */
+.popular h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted #eee;
+    font-size: 18px;
+}
+.popular ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.popular li a {
+    display: block;
+    padding: 5px;
+    border-bottom: 2px dotted #ddd;
+    color: #2288bb;
+    font-size: 14px;
+    text-decoration: none;
+}
+.popular li a:hover {
+    background-color: #eee;
+}
+.popular li a img {
+    border: none;
+}
+.popular a::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.popular img {
+    float: left;
+    width: 60px;
+}
+.popular .text {
+    float: none;
+    width: auto;
+    margin-left: 60px;
+    padding-left: 15px;
+}
+.popular span {
+    display: block;
+    color: #666;
+    font-style: 12px;
+}
+
+/* box5 */
+.box5 {
+    border-top: 1px solid #ddd;
+}
+
+/* copyright */
+.copyright {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* 599px 이하인 경우 작동하는 반응형 코드 */
+@media (max-width: 599px) {
+
+    /* box spacing */
+    .box1 {
+        padding: 4px 0;
+    }
+    .box3 {
+        padding-top: 25px;
+    }
+
+    /* site information */
+    .site h1 {
+        font-size: 20px;
+    }
+    
+    /* menu */
+    .menu li a {
+        padding: 10px 3px;
+        font-size: 11px;
+    }
+
+    /* story */
+    .story h1 {
+        font-size: 26px;
+    }
+    /* SNS share button */
+    .share span {
+        display: inline-block;
+        text-indent: -99999px;
+    }
+    /* relation */
+
+    .relation {
+        padding: 10px;
+    }
+    .relation li {
+        width: 50%;
+    }
+    .relation li:nth-child(3) {
+        clear: both;
+    }
+
+}
+
+/* 600~767px 까지 작동하는 반응형 코드 */
+@media (min-width:600px) and (max-width:767px) {
+
+    /* box4 */
+    .box4:after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+    .box4-1 {
+        float: left;
+        width: 50%;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .box4-2 {
+        float: left;
+        width: 50%;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+/* 768px 이상인경우 작동하는 반응형 코드 */
+@media(min-width:768px){
+
+    .boxA:after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+    .box3 {
+        float: left;
+        width: 70%;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+    .box4 {
+        float: left;
+        width: 30%;
+    }
+
+}
+
+/* 1040px 이상인 경우 작동하는 반응형 코드 */
+@media (min-width:1040px) {
+
+    .box1, .boxA, .box2-inner, .box5-inner {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+
+}
+
