@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Modern Website</title>
+    <link rel="stylesheet" href="./css/resetCss.css">
+    <link rel="stylesheet" href="./css/062619_esthersBlog.css">
+    <script src="https://kit.fontawesome.com/94dad79a7f.js"></script>
+    <script  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- header area-->
+    <div class="header">
+        <h1>Esther's Blog</h1>
+    </div>
+
+    <!-- navigation menu area -->
+    <div class="nav">
+        <div class="inner-nav">
+            <ul>
+                <li><a href="#">MAIN</a></li>
+                <li><a href="#">DESIGN</a></li>
+                <li><a href="#">LEANING</a></li>
+                <li><a href="#">ACTIVITIES</a></li>
+                <li><a href="#">FOOD</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- content area -->    
+    <div class="content">
+
+        <!-- left-section area -->
+        <div class="section">
+            <h1>How to eat a tomato deliciously</h1>
+            <time datetime="06-26-2019"><i class="far fa-clock"></i> 06-26-2019</time>
+            <p><img src="./images/tomato.jpg" alt="tomatoes"></p> 
+            <p>I wanted to eat freshly picked tomatoes, so I took a trip to a nearby tomato farm. 
+            The ripened tomatoes were fresh and cheap.</p>
+            <h2>How to pick a fresh tomato</h2>
+            <p>A fresh tomato has a green and rigid pedicel.  Color of the wall should be red, firm to touch, and round in shape.  
+            Sweeter tomato will sink in water and can be distinguished easily.  However, sweeter does not mean it is good.</p>
+            <h2>How to eat a tomato deliciously</h2>
+            <p>Usually it is best to wash in fresh water and eat immediately.  
+            On a hot weather, eating a delicious tomato brings joy and it can also hydrate your body.</p>
+            <p>One can enjoy it better by sprinkling a choice of salt, sugar, mayonnaise, or olive oil.</p>
+
+            <!-- share button area -->
+            <div class="l-share">
+                <ul>
+                    <li><a href="#" class="share-tw">Share on <span> Twitter </span><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="share-fb">Share on <span> Facebook </span><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site http://www.website.com."
+                         target="_blank" class="share-gg">Share by <span> Email </span><i class="fas fa-at"></i></a></li>
+                </ul>
+                <script>
+                    $(document).ready(function() {
+                        
+                        $(".share-tw").click(function() {
+    
+                            var twitterURL="https://www.twitter.com/intent/tweet?text=[TEXT]&amp;url=[URL]&amp;via=[ID]";
+                            window.open(twitterURL,"_blank","SNS","width=500,  height=300, menubar=no, scrollbars=yes");
+                            return false;
+                        });
+
+                        $(".share-fb").click(function() {
+    
+                        var twitterURL="https://www.facebook.com/sharer/sharer.php?u=example.org";
+                        window.open(twitterURL,"_blank","SNS","width=500,  height=300, menubar=no, scrollbars=yes");
+                        return false;
+                        });
+
+                    });
+                </script>
+            </div>
+
+            <article class="article">
+
+                <!-- related story area -->
+                <h3>Related Story</h2>
+                <div class="l-article">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./images/red-150x150.jpg" alt="grape tomatoes">
+                                <div class="description">Cultured Tomato Part 8 - Tomatoes turn red as they ripen</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/potato-150x150.jpg" alt="potatoes">
+                                <div class="description">Delicious Potato Dish</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/eggplant-150x150.jpg" alt="eggplants">
+                                <div class="description">Harvested Eggplants</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/can-150x150.jpg" alt="can food">
+                                <div class="description">Cost benefits of using a canned item</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </article>
+
+        </div>
+
+        <!-- aside area -->
+        <div class="aside">
+            
+            <!-- width is between 600~766px left-aside area -->
+            <div class="left-aside">
+
+                <!-- feature story area -->
+                <article class="l-feature">
+                    <h3>Feature Story</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-caret-right"></i> Easy to Read Map Instructions</a></li>
+                        <li><a href="#"><i class="fas fa-caret-right"></i> First steps to farm tomatoes</a></li>
+                        <li><a href="#"><i class="fas fa-caret-right"></i> Smart phone cooking app</a></li>
+                        <li><a href="#"><i class="fas fa-caret-right"></i> How to prolong battery life</a></li>
+                    </ul>
+                </article>
+    
+                <!-- recommend story area -->
+                <article class="l-recommend">
+                    <h3>Recommend Story</h3>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./images/flower.jpg" alt="flower"></a>
+                            <div class="title">First steps to arranging flowers</div>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/old.jpg" alt="old smartphone"></a>
+                            <div class="title">When old smartphone was charged</div>
+                        </li>
+                    </ul>
+                </article>
+
+            </div>
+            <!-- width is between 600~766px right-aside area -->
+            <div class="right-aside">
+
+                <!-- popular story area -->
+                <article class="l-popular">
+                    <h3>Popular Story</h3>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./images/flower-60x60.jpg" alt="flower">
+                            <div class="description">Points for those who like flowers<span>Activities</span></div></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/tel-60x60.jpg" alt="telephone">
+                            <div class="description">Convenient way to use an app<span>Leaning</span></div></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/green-60x60.jpg" alt="green">
+                            <div class="description">Worthy weekend destinations<span>Activities</span></div></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/bag-60x60.jpg" alt="bag">
+                            <div class="description">World wide shopping Bag<span>Design</span></div></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/color-60x60.jpg" alt="color">
+                            <div class="description">Ways to decorate room furniture<span>Design</span></div></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/sea-60x60.jpg" alt="sea">
+                            <div class="description">Things encountered in the ocean<span>Activities</span></div></a>
+                        </li>
+                    </ul>
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="inner-footer">
+            <p> Copyright &copy <a href="#">Esther's Blog </a> Made by Esther</p>
+        </div>
+    </div>
+    
+</body>
+</html>
