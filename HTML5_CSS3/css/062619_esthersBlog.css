@@ -55,6 +55,9 @@ body {
     display: block;
     clear: both;
 }
+.tag-btn ul {
+    margin-left: 10px;
+}
 .tag-btn li {
     float: left;
 }
@@ -299,6 +302,9 @@ body {
         display: inline-block;
         text-indent: -9999px;
     }
+    .left-aside {
+        margin-bottom: 40px;
+    }
     .l-article li {
         width: 50%;
         text-align: center;
@@ -321,7 +327,7 @@ body {
     .left-aside {
         float : left;
         width: 50%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         padding-right: 10px;
         box-sizing: border-box;
     }
