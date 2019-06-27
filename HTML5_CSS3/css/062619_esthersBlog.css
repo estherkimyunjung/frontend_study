@@ -219,11 +219,11 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: 10px;
+    padding: 7px;
     width: 100%;
     box-sizing: border-box;
     color: white;
-    font-size: 1rem;
+    font-size: .75rem;
     background-color: black;
     opacity: .6;
 }
@@ -271,7 +271,7 @@ body {
     border-top: 2px dotted #eee;
 }
 .footer p {
-    padding: 10px;
+    padding: 20px;
     font-style: 1rem;
     }
 .footer p a {
@@ -287,6 +287,7 @@ body {
 @media (max-width: 599px) {
 
     .nav li a {
+        padding: 15px 7px 15px 10px;
         font-size: .5rem;
     }
     .section h1 {
@@ -299,8 +300,7 @@ body {
         font-size: .85rem;
     }
     .l-share span {
-        display: inline-block;
-        text-indent: -9999px;
+        display: none;
     }
     .l-article li {
         width: 50%;
@@ -312,11 +312,18 @@ body {
     .l-article .description {
         text-align: left;
     }
+    .l-feature li a {
+        padding: 3px;
+        font-size: .75rem;
+    }
     .l-recommend ul {
         padding: 0 10px;;
     }
     .right-aside {
         margin-bottom: 40px;
+    }
+    .footer p {
+        font-size: .85rem;
     }
 
 }
@@ -331,7 +338,6 @@ body {
         padding-right: 10px;
         box-sizing: border-box;
     }
-
     .right-aside {
         float : right; 
         width: 50%; 
@@ -343,7 +349,6 @@ body {
     }
 
 }
-
 
 /* width - 768px and more */
 @media (min-width:767px) {
@@ -372,6 +377,11 @@ body {
         width: 1000px;
         margin: 0 auto;
     }
+    .l-recommend .title {
+    padding: 10px;
+    font-size: 1rem;
+    }
+
 }
 
 
