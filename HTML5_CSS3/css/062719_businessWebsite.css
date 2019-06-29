@@ -257,8 +257,11 @@ body {
     .summary p {
         font-size: 7px;
     }
+    .news {
+        padding: 11px;
+    }
     .news h1 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: bold;
     }
     .news a:after {
@@ -268,13 +271,13 @@ body {
     }
     .news time {
         float: left;
-        width: 60px;
+        width: 55px;
     }
     .news .text {
         float: none;
         width: auto;
-        margin-left: 60px;
-        font-size: 13px;
+        margin-left: 55px;
+        font-size: 12px;
     }
     .follow-info {
         font-size: 12px;
