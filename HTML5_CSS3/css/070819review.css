@@ -1,0 +1,352 @@
+/* layout guide */
+/* .header, .header-topbar, .header-main, .header-subtitle, .main, .aside, .contents, .footer {
+    border: 2px solid orange;
+    background-color: skyblue;
+} */
+
+* {
+    box-sizing: border-box;
+}
+/* header */
+/* header-topbar */
+.header-main, .header-subtitle, .main, .footer-wrap {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.clear::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.header-topbar {
+    background-color: #fff;
+}
+.header-topbar .logo {
+    float: left;
+}
+.logo img {
+    width: 160px;
+    height: auto;
+    margin: 5px;
+    vertical-align: middle;
+}
+.navigation li {
+    float: left;
+    margin: 15px;
+}
+.navigation li:last-child {
+    float: right;
+    margin-right: 55px;
+}
+.navigation li a {
+    color: #444;
+}
+.header-topbar .search {
+    float: right;
+}
+.search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48px;
+    height: 48px;
+    background-color: #000;
+}
+.search i {
+    color: #fff;
+}
+
+/* header-main */
+.header-title-wrap {
+    background-color: #ebf7fd;
+}
+.header-main {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-main h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.header-main img {
+    width: 12px;
+    height: 12px;
+}
+.tools li {
+    float: left;
+    margin: 0 10px;
+}
+.tools button {
+    padding: 5px 10px;
+}
+.tools .edit {
+    border: 2px solid #3d7e9a;
+    background-color: #fff;
+}
+.tools .setting {
+    border: 2px solid #444;
+    background-color: #fff;
+}
+
+/* header-subtitle */ 
+.header-subtitle-wrap {
+    width: 100%;
+    background-color: #000;
+}
+.header-subtitle {
+    display: flex;
+    padding: 0;
+    color: #fff;
+    font-size: 0.8rem;
+    align-items:center; 
+}
+.header-subtitle li {
+    float: left;
+    margin-left: 15px;
+}
+.header-subtitle li:first-child {
+    border-bottom: 3px solid #83d0f2;
+}
+.header-subtitle li a {
+    display: block;
+    padding: 20px;
+    color: #83d0f2;
+}
+
+/* main (2columns & 2rows) */
+
+/* aside (main left col) */
+.main-contents .aside {
+    float: left;
+    width: calc(25% - 40px);
+    margin-right: 40px;
+}
+.aside .topic {
+    line-height: 1.5;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(208, 212, 216);
+}
+.main-title h4 {
+    margin-top: 5px;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+.main-subtitle-top .main-subtitle-topic {
+    font-weight: bold;
+}
+.main-subtitle-top .main-subtitle-topic:hover {
+    text-decoration: underline;
+}
+.main-subtitle li {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.main-subtitle summary::-webkit-details-marker {
+	color: #3d7e9a;
+	width: 8px;
+    height: 8px;
+}
+
+/* contents (main right col) */
+.main-contents .contents {
+    float: left;
+    width: 75%;
+}
+.contents p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 0.85rem;
+}
+
+/* summary */
+.summary {
+    margin: 40px auto;
+    margin-bottom: 70px;
+}
+
+/* section */
+.section h2 {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 3px solid #3d7e9a;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* section-topic-one */
+.section .highlight-span {
+    padding-right: 5px;
+    background-color: #222;
+}
+.section h3 a {
+    margin-left: 15px;
+    color: #83d0f2;
+    font-size: 1.2rem;
+}
+
+/* section-topic-three */
+.section .contributors {
+    margin: 10px 0;
+    font-size: 0.85rem;
+}
+.section img {
+    width: 16px;
+    align-items: center;
+}
+.contributors img {
+    float: left;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.contributors ul {
+    display: inline-flex;
+}
+.contributors li {
+    float: left;
+}
+.contributors li a {
+    margin: 0 15px;
+    padding: 5px;
+    background-color: #d8f0fa;
+}
+.contributors a {
+    line-height: 1.5;
+    color: #3d7e9a;
+}
+.section:last-child {
+    margin-bottom: 80px;
+}
+
+/* main-link (bottom row) */
+.main-link {
+    padding: 40px 10px;
+    border-top: 2px solid #000;
+}
+.main-link .text {
+    float: left;
+    width: 70%;
+    font-weight: bold;
+}
+.main-link .text p {
+    font-size: .75rem;
+    font-weight: normal;
+}
+.main-link .link {
+    float: left;
+    width: 30%;
+}
+.link .email {
+    float: right;
+    margin-bottom: 10px;
+}
+.link .signup {
+    float: right;
+}
+.email .link-email {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 2px solid #444;
+    font-size: 0.5rem;
+}
+.signup .link-submit {
+    width: 200px;
+    height: 30px;
+    padding-left: 15px;
+    border: 2px solid #83d0f2;
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+/* upper right close button */
+.main-link {
+    clear: both;
+    position: relative;
+}
+.main-link .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/* footer */
+.footer {
+    background: #000;
+    padding: 50px;
+}
+
+/* policies (left col) */
+.footer .policies {
+    float: left;
+    width: 40%;
+}
+.footer .policies img {
+    width: 35%;
+}
+.lang lable {
+    display: block;
+    color: #fff;
+    font-size: 0.75rem;
+}
+.lang select {
+    clear: both;
+    font-size: 0.75rem;
+}
+.policies-items li {
+    float: left;
+    margin: 15px 20px 15px 0px;
+    font-size: .75rem;
+}
+.policies-items li a {
+    display: block;
+    color: #83d0f2;
+}
+.copyright {
+    line-height: 1.5;
+    clear: both;
+    color: #fff;
+    font-size: 0.75rem;
+}
+.copyright span {
+    color: #83d0f2;
+}
+
+/* mdn-info (center col) */
+.footer .mdn-info {
+    float: left;
+    width: 30%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* mozilla-info (right col) */
+.footer .mozilla-info {
+    float: left;
+    width: 30%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* mdn-info (center col) & mozilla-info (right col) SNS */
+.mdn-info li a, .mozilla-info li a {
+    font-size: .75rem;
+    color: #83d0f2;
+}
+.sns-wrap .sns {
+    float: left;
+}
+.sns img {
+    width: 20px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
