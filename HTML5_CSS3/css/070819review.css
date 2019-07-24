@@ -192,13 +192,11 @@
 .section .contributors {
     margin: 10px 0;
     font-size: 0.85rem;
+    vertical-align: middle;
 }
-.section img {
-    width: 16px;
-    align-items: center;
-}
+
 .contributors img {
-    float: left;
+    width: 16px;
     margin-right: 5px;
     vertical-align: middle;
 }
