@@ -1,5 +1,5 @@
-## frontend_study
+# frontend_study
 
-#HTML
-#CSS
-#JavaScript
+## HTML
+## CSS
+## JavaScript
